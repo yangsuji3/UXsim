@@ -1900,7 +1900,24 @@ class Analyzer:
                 draw.line([(x1, flip(y1)), (x2, flip(y2))], fill=(200,200,200), width=int(1), joint="curve")
 
                 if network_font_size > 0:
+                    xmid1 = 0
+                    ymid1 = 0
                     draw.text((xmid1, flip(ymid1)), l.name, font=font, fill="blue", anchor="mm")
+            # for l in s.W.LINKS:
+            #     x1, y1 = l.start_node.x*coef-minx, l.start_node.y*coef-miny
+            #     x2, y2 = l.end_node.x*coef-minx, l.end_node.y*coef-miny
+            #     # 링크의 중간점 계산
+            #     xmid1 = (x1 + x2) / 2
+            #     ymid1 = (y1 + y2) / 2
+            #     print(xmid1)
+    
+            #     draw.line([(x1, flip(y1)), (x2, flip(y2))], fill=(200,200,200), width=int(1), joint="curve")
+
+            #     if network_font_size > 0:
+            #         # 링크 이름을 중간점에 그리기
+            #         draw.text((xmid1, flip(ymid1)), l.name, font=font, fill="blue", anchor="mm")
+  
+                    
 
             traces = draw_dict[t]
             for trace in traces:

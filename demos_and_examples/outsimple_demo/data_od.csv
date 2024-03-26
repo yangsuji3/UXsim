@@ -1,0 +1,3 @@
+orig,dest,total_trips,completed_trips,free_travel_time,average_travel_time,stddiv_travel_time
+orig1,dest,400,375,100.0,168.46666666666667,88.99053632581138
+orig2,dest,300,300,100.0,110.5,4.444097208657794

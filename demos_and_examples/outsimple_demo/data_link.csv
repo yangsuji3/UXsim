@@ -1,0 +1,4 @@
+link,traffic_volume,vehicles_remain,free_travel_time,average_travel_time,stddiv_travel_time
+link1,400,0,50.0,128.625,81.71842534989686
+link2,300,0,50.0,55.583333333333336,6.12995831053433
+link3,675,25,50.0,52.166666666666664,2.4776781245530843
